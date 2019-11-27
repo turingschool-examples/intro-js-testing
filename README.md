@@ -14,7 +14,7 @@ This small repo is intended to accompany the [Intro to Unit Testing with JavaScr
 
 **TLDR:** In Module 2, you'll learn a lot more about npm and how all these things are configured. You will **not** be required to do any set up/configuration beyond running `npm install` for any project in Module 1.
 
-`npm` ([Node Package Manager](https://www.npmjs.com/)) helps us manages JavaScript packages that we may bring into projects. For this project, we have to bring in the packages `mocha` and `chai` in order to run our tests. Packages are pieces of code that someone (person or company) has written to make other developers lives easier. They publish them with npm, then any developer can use them, for free!
+`npm` ([Node Package Manager](https://www.npmjs.com/)) helps us manage JavaScript packages that we may bring into projects. Packages are pieces of code that someone (person or company) has written to make other developers lives easier. They publish them with npm, then any developer can use them, for free! For this project, we have to bring in the packages `mocha` and `chai` in order to run our tests.
 
 Because some libraries involve a lot of code, it wouldn't be efficient for us to download all of every package every time we run a project. Once you run `npm install`, you'll see two new-to-us items in your project directory:
 - `package.json`
