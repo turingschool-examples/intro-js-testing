@@ -31,6 +31,18 @@ describe('Tweet', function() {
     assert.equal(tweet.content, 'something else');
   });
 
+  it.skip('can contain a link', function() {
+    var tweet = new Tweet('@ameseee', 'a thought about something', 'www.somevideo.io');
+
+    assert.equal(tweet.link, 'www.somevideo.io');
+  })
+
+  it.skip('should have a default link value', function() {
+    var tweet = new Tweet('@ameseee', 'something else');
+
+    assert.equal(tweet.link, 'no link provided');
+  })
+
   it.skip('starts with no likes', function() {
     var tweet = new Tweet('@LetaCodes', 'something brilliant');
 
